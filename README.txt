@@ -10,6 +10,7 @@ Design goals and/or TODOs
 - The script should work with all recent major browsers.
 - No use of other JavaScript libraries.
 - Users having JavaScript disabled should nevertheless be able to read the complete content of the website.
+- Don't break browser functionalities like bookmarks and forward/back-buttons.
 
 
 Installation
