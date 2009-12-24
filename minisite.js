@@ -15,7 +15,7 @@ function init() {
 		menuLink.appendChild(document.createTextNode(pages[i].id));
 		menuLink.onclick = function() {
 			pageCurrent.className = "page-hidden";
-			pageCurrent = document.getElementById(this.childNodes[0].textContent);
+			pageCurrent = document.getElementById(this.innerText ? this.innerText : this.childNodes[0].textContent);
 			pageCurrent.className = "page";
 		};
 		menu.appendChild(menuLink);
